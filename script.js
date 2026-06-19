@@ -4,6 +4,7 @@ const closeBtn = document.querySelector(".close-btn");
 const video = document.getElementById("video");
 const overLay = document.getElementById("overLay");
 const fiveSectionMain_right = document.querySelector(".fiveSectionMain-right");
+
 openBtn.addEventListener("click", () => {
   modal.style.display = "flex";
   overLay.style.display = "flex";
